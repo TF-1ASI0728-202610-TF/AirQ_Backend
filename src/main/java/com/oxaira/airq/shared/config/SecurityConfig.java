@@ -49,8 +49,8 @@ public class SecurityConfig {
                                                 .permitAll()
 
                                                 .requestMatchers(
-                                                                HttpMethod.GET,
-                                                                "/api/v1/health")
+                                                                "/api/v1/health",
+                                                                "/api/v1/health/**")
                                                 .permitAll()
 
                                                 .requestMatchers(
