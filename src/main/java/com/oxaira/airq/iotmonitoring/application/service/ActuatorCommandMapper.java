@@ -26,9 +26,9 @@ public class ActuatorCommandMapper {
         return ActuatorCommand.builder()
                 .extractor(extractor)
                 .hepa(hepa)
-                .ac_cool(acCool)
-                .ac_dry(acDry)
-                .dampers_open(dampersOpen)
+                .acCool(acCool)
+                .acDry(acDry)
+                .dampersOpen(dampersOpen)
                 .build();
     }
 }

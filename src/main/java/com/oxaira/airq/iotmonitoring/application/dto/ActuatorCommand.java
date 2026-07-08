@@ -15,11 +15,11 @@ public class ActuatorCommand {
     private boolean hepa;
     
     @JsonProperty("ac_cool")
-    private boolean ac_cool;
+    private boolean acCool;
     
     @JsonProperty("ac_dry")
-    private boolean ac_dry;
+    private boolean acDry;
     
     @JsonProperty("dampers_open")
-    private boolean dampers_open;
+    private boolean dampersOpen;
 }
